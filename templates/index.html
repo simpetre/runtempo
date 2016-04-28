@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Welcome | RunTempo</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Custom Fonts -->
+    <link href="../static/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Custom CSS -->
+    <link href="../static/css/agency.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">RunTempo</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Method</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Parameters</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">Output</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in">Your personal musical running coach!</div>
+                <div class="intro-heading">Welcome To RunTempo</div>
+                <a href="#services" class="page-scroll btn btn-xl">Give me music</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Generate Playlist</h2>
+                    <h3 class="section-subheading text-muted">RunTempo is an app that generates
+                    uses music that you like to keep you running at the speed you want to run.
+                    <br>Just select an option
+                    below...</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+
+              <div class="col-md-4">
+                <label class="fb">
+                  <input type="radio" name="fb" value="0" />
+                      <span class="fa-stack fa-4x">
+                          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                          <i class="fa fa-play-circle fa-stack-1x fa-inverse"></i>
+                      </span>
+                      <h4 class="service-heading">Base Recommender</h4>
+                      <p class="text-muted">Make a playlist based on one million users' song preferences</p>
+                </label>
+              </div>
+
+              <div class="col-md-4">
+                <label class="fb">
+                  <input type="radio" name="fb" value="1"/>
+                      <span class="fa-stack fa-4x">
+                          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                          <i class="fa fa-music fa-stack-1x fa-inverse"></i>
+                      </span>
+                      <h4 class="service-heading">User Library Recommender</h4>
+                      <p class="text-muted">Process your music and recommend a playlist based on acoustic fingerprint
+                      of music in your library</p>
+                  </label>
+                </div>
+
+              <div class="col-md-4">
+                <label class="fb">
+                  <input type="radio" name="fb" value="2" />
+                      <span class="fa-stack fa-4x">
+                          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                          <i class="fa fa-headphones fa-stack-1x fa-inverse"></i>
+                      </span>
+                      <h4 class="service-heading">Popularity / Similarity Recommender</h4>
+                      <p class="text-muted">Map MSD songs' acoustic fingerprint to Billboard top 100 and get a playlist
+                      based on what's recently popular</p>
+                </label>
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Make your selections</h2>
+                    <h3 class="section-subheading text-muted">In the top grid, pick how fast you want to run.
+                    In the bottom grid, choose one of two (vertically paired) songs. We'll do the rest!</h3>
+                </div>
+            </div>
+            <div class="row">
+              <form>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                  <label class="speeda">
+                    <input type="radio" name="speed" value="0" />
+                    <i class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-play fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="../static/img/portfolio/tortoise.jpg" class="img-responsive" alt="">
+                    </i>
+                    </label>
+                    <div class="portfolio-caption">
+                        <h4>Beginner</h4>
+                        <p class="text-muted">140-160 steps/min</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                 <label class="speeda">
+                    <input type="radio" name="speed" value="1" />
+                    <i class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-forward fa-3x"></i>
+                              </label>
+                            </div>
+                        </div>
+                        <img src="../static/img/portfolio/zebra.jpg" class="img-responsive" alt="">
+                    </i>
+                  </label>
+
+                    <div class="portfolio-caption">
+                        <h4>Intermediate</h4>
+                        <p class="text-muted">160-180 steps/min</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                  <label class="speeda">
+                    <input type="radio" name="speed" value="2" />
+                      <i class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-fast-forward fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="../static/img/portfolio/cheetah.jpg" class="img-responsive" alt="">
+                    </i>
+                  </label>
+
+                    <div class="portfolio-caption">
+                        <h4>Speedy</h4>
+                        <p class="text-muted">180-200 steps/min</p>
+                    </div>
+                  </form>
+                </div>
+
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                  <label>
+                    <input type="radio" name="gp1" value="0" />
+                    <i class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="../static/img/portfolio/roundicons.png" class="img-responsive" alt="">
+                    </i>
+                  </label>
+                    <div class="portfolio-caption">
+                        <h4>{{ song_1a }}</h4>
+                        <p class="text-muted">{{ artist_1a }}</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                  <label>
+                    <input type="radio" name="gp2" value="0" />
+                    <i class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="../static/img/portfolio/startup-framework.png" class="img-responsive" alt="">
+                    </i>
+                  </label>
+                    <div class="portfolio-caption">
+                        <h4>{{ song_2a }}</h4>
+                        <p class="text-muted">{{ artist_2a }}</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                  <label>
+                    <input type="radio" name="gp3" value="0" />
+                    <i class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="../static/img/portfolio/treehouse.png" class="img-responsive" alt="">
+                    </i>
+                  </label>
+                    <div class="portfolio-caption">
+                        <h4>{{ song_3a }}</h4>
+                        <p class="text-muted">{{ artist_3a }}</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                  <label>
+                    <input type="radio" name="gp1" value="1" />
+                    <i class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="../static/img/portfolio/golden.png" class="img-responsive" alt="">
+                    </i>
+                  </label>
+                    <div class="portfolio-caption">
+                        <h4>{{ song_1b }}</h4>
+                        <p class="text-muted">{{ artist_1b }}</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                  <label>
+                    <input type="radio" name="gp2" value="1" />
+                    <i class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="../static/img/portfolio/escape.png" class="img-responsive" alt="">
+                    </i>
+                  </label>
+                    <div class="portfolio-caption">
+                        <h4>{{ song_2b }}</h4>
+                        <p class="text-muted">{{ artist_2b }}</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                  <label>
+                    <input type="radio" name="gp3" value="1" />
+                    <i class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="../static/img/portfolio/escape.png" class="img-responsive" alt="">
+                    </i>
+                  </label>
+                    <div class="portfolio-caption">
+                        <h4>{{ song_3b }}</h4>
+                        <p class="text-muted">{{ artist_3b }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">PLAYLIST</h2>
+                    <h3 class="section-subheading text-muted">See your songs below!</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                      {{ t_var | safe }}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Our Amazing Team</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="../static/img/team/1.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Simon Petre/h4>
+                        <p class="text-muted">Lead Designer</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="../static/img/team/2.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Simon Petre</h4>
+                        <p class="text-muted">Lead Marketer</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="../static/img/team/3.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Simon Petre</h4>
+                        <p class="text-muted">Lead Developer</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p class="large text-muted"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients Aside -->
+    <aside class="clients">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="../static/img/logos/envato.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="../static/img/logos/designmodo.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="../static/img/logos/themeforest.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="../static/img/logos/creative-market.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; Simon Petre 2016</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="#"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="#">Privacy Policy</a>
+                        </li>
+                        <li><a href="#">Terms of Use</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="../static/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../static/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="../static/js/classie.js"></script>
+    <script src="../static/js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="../static/js/jqBootstrapValidation.js"></script>
+    <script src="../static/js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="../static/js/agency.js"></script>
+
+    <style>
+      label.fb.active {background:rgba(254,209,54,.7);
+
+  }
+    </style>
+    <style>
+      label.speed.active {color:rgba(254,209,54,.7);
+
+  }
+    </style>
+
+      <script type="text/javascript">
+          $('input[name="fb"]').change(function(){
+              $('input[name="fb"]').closest('label').removeClass('active');
+              $(this).closest('label').addClass('active'); 
+          });
+      </script>
+
+</body>
+
+</html>
