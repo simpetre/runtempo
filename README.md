@@ -5,9 +5,13 @@ Have you ever started running but got halfway through and just sort of chickened
 ###Table of Contents
 
 [Problem Statement](#problem)
+
 [Data Pipeline](#pipeline)
+
 [Model](#model)
+
 [Future Work](#webapp)
+
 [Webapp](#future)
 
 <a name="problem">###Problem Statement</a>
